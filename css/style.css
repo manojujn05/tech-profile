@@ -195,6 +195,12 @@ ul {
 		}
 
 /****  2 - MENU ****/
+.logo {
+  width: 90px; 
+  height: auto; 
+  float: left;
+  margin-right: 10px; 
+}
 
 .menu {
 	position: fixed;
