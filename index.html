@@ -1,625 +1,1298 @@
 <!DOCTYPE html>
-<html lang="en">
-  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-  <head>
-    <!-- Meta -->
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="RStill - CV/Resume" />
-    <meta name="keywords" content="cv, resume, portfolio, creative, modern" />
-    <meta name="author" content="Hamza Gourram" />
-    <!-- Page Title -->
-    <title>Manoj Agrawal - CV</title>
-    <!-- Styles -->
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/tootik.css" />
-    <link rel="stylesheet" href="css/magnific-popup.css" />
-    <link rel="stylesheet" href="css/swiper.css" />
-    <link rel="stylesheet" href="css/animate.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <!-- Light & Dark Color -->
-    <link rel="stylesheet" id="light-dark" href="css/colors/light.css" />
-    <!-- Theme Color -->
-    <link rel="stylesheet" id="colors" href="css/colors/color1-0487cc.css" />
-    <!-- Responsive style -->
-    <link rel="stylesheet" href="css/responsive.css" />
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/ico" href="images/favicon.jpg" />
-    <!-- Google Fonts -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Oswald:300,400,700|PT+Sans+Narrow:400,700"
-    />
-  </head>
-  <body>
-    <div class="content">
-      <!-- #LOADER# -->
-      <!-- other loader : http://tobiasahlin.com/spinkit/ -->
-      <div class="loading-overlay">
-        <div class="spinner">
-          <div class="rect1"></div>
-          <div class="rect2"></div>
-          <div class="rect3"></div>
-          <div class="rect4"></div>
-          <div class="rect5"></div>
-        </div>
-      </div>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Primary Meta Tags -->
+  <title>Manoj Agrawal | Technical Architect | AI &amp; SaaS Engineering</title>
+  <meta name="title" content="Manoj Agrawal | Technical Architect | AI &amp; SaaS Engineering" />
+  <meta name="description" content="Manoj Agrawal is a Technical Architect with 15+ years of experience in SaaS, cloud, software architecture and AI engineering, including Python, RAG, LangChain, LangGraph and vector databases." />
+  <meta name="keywords" content="Manoj Agrawal, Technical Architect, AI Solutions Architect, AI Engineering, Software Architect, Python, RAG, LangChain, LangGraph, Vector Databases, SaaS Architecture, AWS, Laravel, Node.js, React, Docker, Kubernetes" />
+  <meta name="author" content="Manoj Agrawal" />
+  <link rel="canonical" href="https://manojujn05.github.io/tech-profile/" />
 
-      <!-- #MENU# -->
-      <div class="menu">
-        <h2 class="logo">M</h2>
-        <div class="menu-content">
-          <ul>
-            <li><a class="active" href="#" data-value="about">ABOUT</a></li>
-            <li><a href="#" data-value="skills">SKILLS</a></li>
-            <li><a href="#" data-value="experience">EXPERIENCE</a></li>
-            <li><a href="#" data-value="contact-us">CONTACT</a></li>
-          </ul>
-        </div>
-        <div class="open-menu">
-          <i class="fa fa-bars"></i>
-        </div>
-      </div>
-      <div class="theme-option">
-        <div class="change-theme">
-          <div class="light-dark-theme">
-            <ul>
-              <li class="light">
-                <h4>Light</h4>
-                <span data-value="css/colors/light.css"
-                  ><i class="fa fa-check"></i
-                ></span>
-              </li>
-              <li class="dark">
-                <h4>Dark</h4>
-                <span data-value="css/colors/dark.css"
-                  ><i class="fa fa-check"></i
-                ></span>
-              </li>
-            </ul>
-          </div>
-          <div class="colors-theme">
-            <h4>12 awesome colors</h4>
-            <ul>
-              <li class="color1">
-                <span data-value="css/colors/color1-0487cc.css"
-                  ><i class="fa fa-check"></i
-                ></span>
-              </li>
-              <li class="color2">
-                <span data-value="css/colors/color2-f23a3a.css"
-                  ><i class="fa fa-check"></i
-                ></span>
-              </li>
-              <li class="color3">
-                <span data-value="css/colors/color3-2eac6d.css"
-                  ><i class="fa fa-check"></i
-                ></span>
-              </li>
-              <li class="color4">
-                <span data-value="css/colors/color4-f35b25.css"
-                  ><i class="fa fa-check"></i
-                ></span>
-              </li>
-            </ul>
-            <ul>
-              <li class="color5">
-                <span data-value="css/colors/color5-f6416c.css"
-                  ><i class="fa fa-check"></i
-                ></span>
-              </li>
-              <li class="color6">
-                <span data-value="css/colors/color6-ff9999.css"
-                  ><i class="fa fa-check"></i
-                ></span>
-              </li>
-              <li class="color7">
-                <span data-value="css/colors/color7-00adb5.css"
-                  ><i class="fa fa-check"></i
-                ></span>
-              </li>
-              <li class="color8">
-                <span data-value="css/colors/color8-00cf95c.css"
-                  ><i class="fa fa-check"></i
-                ></span>
-              </li>
-            </ul>
-            <ul>
-              <li class="color9">
-                <span data-value="css/colors/color9-827055.css"
-                  ><i class="fa fa-check"></i
-                ></span>
-              </li>
-              <li class="color10">
-                <span data-value="css/colors/color10-8200ff.css"
-                  ><i class="fa fa-check"></i
-                ></span>
-              </li>
-              <li class="color11">
-                <span data-value="css/colors/color11-e4c144.css"
-                  ><i class="fa fa-check"></i
-                ></span>
-              </li>
-              <li class="color12">
-                <span data-value="css/colors/color12-5457a6.css"
-                  ><i class="fa fa-check"></i
-                ></span>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="open-theme">
-          <i class="fa fa-cogs"></i>
-        </div>
-      </div>
-      <div
-        class="scroll-top"
-        data-tootik="TOP"
-        data-tootik-conf="invert no-arrow no-fading"
-      >
-        <i class="fa fa-arrow-up"></i>
-      </div>
-      <div class="container">
-        <section id="about" class="section section-about wow fadeInUp">
-          <div class="profile">
-            <div class="row">
-              <div class="col-sm-4">
-                <div class="photo-profile">
-                  <img src="images/manoj.jpg" alt="Manoj Agrawal" />
-                </div>
-              </div>
-              <div class="col-sm-8">
-                <div class="info-profile">
-                  <img src="images/aws-certified-cloud-practitioner.png" alt="Logo" class="logo">
-                  <h2>MANOJ AGRAWAL</h2>
-                  <h3>Technical Architect</h3>
-                  <p>
-                    Hello! I’m Manoj Agrawal, a Technical Leader with over 15 years of experience across diverse domains including Share Market, Banking, E-commerce, and Learning Management Systems (LMS). I possess comprehensive expertise in all stages of the web and mobile application development cycle, specializing in delivering robust, dynamic web projects. My skill set includes advanced proficiency in technologies such as Node.js, React.js, Laravel, PHP-MySQL, Asp.Net, C#, HTML5, CSS3, JavaScript, TypeScript, and jQuery. With a strong foundation in management and leadership, I excel in architecting scalable solutions and driving teams towards successful project outcomes.
-                  </p>
-                  <div class="row">
-                    <div class="col-sm-6">
-                      <ul class="ul-info">
-                        <li class="li-info">
-                          <span class="title-info">Qualification</span>
-                          <span class="info">MCA</span>
-                        </li>
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://manojujn05.github.io/tech-profile/" />
+  <meta property="og:title" content="Manoj Agrawal | Technical Architect | AI &amp; SaaS Engineering" />
+  <meta property="og:description" content="Technical Architect with 15+ years of experience designing scalable SaaS, cloud, and AI-powered applications across e-commerce, banking, finance, and enterprise automation." />
+  <meta property="og:image" content="images/manoj.jpg" />
 
-                        <li class="li-info">
-                          <span class="title-info">Email</span>
-                          <span class="info">manojujn[at]gmail.com</span>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="col-sm-6">
-                      <ul class="ul-info">
-                        <li class="li-info">
-                          <span class="title-info">Phone</span>
-                          <span class="info">+91-9970399685</span>
-                        </li>
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://manojujn05.github.io/tech-profile/" />
+  <meta name="twitter:title" content="Manoj Agrawal | Technical Architect | AI &amp; SaaS Engineering" />
+  <meta name="twitter:description" content="Technical Architect with 15+ years of experience in SaaS, cloud, software architecture and AI engineering." />
+  <meta name="twitter:image" content="images/manoj.jpg" />
 
-                        <li class="li-info">
-                          <span class="title-info">Nationality</span>
-                          <span class="info">Indian</span>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="col-sm-12">
-                      <span class="title-links">Social Links</span>
-                      <ul class="ul-social-links">
-                        <li class="li-social-links">
-                          <a
-                            href="https://www.facebook.com/manojujn/"
-                            data-tootik="Facebook"
-                            data-tootik-conf="square"
-                            ><i class="fa fa-facebook" aria-hidden="true"></i
-                          ></a>
-                        </li>
-                        <li class="li-social-links">
-                          <a
-                            href="https://twitter.com/ManojAg24865119"
-                            data-tootik="Twitter"
-                            data-tootik-conf="square"
-                            ><i class="fa fa-twitter" aria-hidden="true"></i
-                          ></a>
-                        </li>
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/jpeg" href="images/favicon.jpg" />
 
-                        <li class="li-social-links">
-                          <a
-                            href="https://www.linkedin.com/in/manoj-agrawal-6009b830/"
-                            data-tootik="Linkedin"
-                            data-tootik-conf="square"
-                            ><i class="fa fa-linkedin" aria-hidden="true"></i
-                          ></a>
-                        </li>
+  <!-- Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
 
-                        <li class="li-social-links">
-                          <a
-                            href="https://www.youtube.com/channel/UC1bAm1eghkdo0YWVMeUgWpg"
-                            data-tootik="Youtube"
-                            data-tootik-conf="square"
-                            ><i class="fa fa-youtube" aria-hidden="true"></i
-                          ></a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section
-          id="skills"
-          class="section section-skills wow fadeInUp"
-          data-wow-offset="40"
-        >
-          <div class="header-section">
-            <h2 class="h2-section">SKILLS</h2>
-          </div>
-          <div class="row">
-            <div class="col-md-5">
-              <div class="professional-skills">
-                <div class="title-skills">
-                  <h3>TECHNICAL SKILLS</h3>
-                </div>
-                <div class="skill">
-                  <div class="title-progress">
-                    <span class="skill-name">Node JS</span>
-                    <span class="skill-value">80%</span>
-                  </div>
-                  <div class="progress">
-                    <div
-                      class="progress-bar progress4"
-                      role="progressbar"
-                      aria-valuenow="60"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                      style="width: 60%"
-                    ></div>
-                  </div>
-                </div>
-                <div class="skill">
-                  <div class="title-progress">
-                    <span class="skill-name">React JS </span>
-                    <span class="skill-value">70%</span>
-                  </div>
-                  <div class="progress">
-                    <div
-                      class="progress-bar progress5"
-                      role="progressbar"
-                      aria-valuenow="60"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                      style="width: 65%"
-                    ></div>
-                  </div>
-                </div>
-                <div class="skill">
-                  <div class="title-progress">
-                    <span class="skill-name">Laravel</span>
-                    <span class="skill-value">80%</span>
-                  </div>
-                  <div class="progress">
-                    <div
-                      class="progress-bar progress1"
-                      role="progressbar"
-                      aria-valuenow="60"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                      style="width: 80%"
-                    ></div>
-                  </div>
-                </div>
-                <div class="skill">
-                  <div class="title-progress">
-                    <span class="skill-name">ASP.Net C#</span>
-                    <span class="skill-value">65%</span>
-                  </div>
-                  <div class="progress">
-                    <div
-                      class="progress-bar progress5"
-                      role="progressbar"
-                      aria-valuenow="60"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                      style="width: 65%"
-                    ></div>
-                  </div>
-                </div>
-                <div class="skill">
-                  <div class="title-progress">
-                    <span class="skill-name">Codeigniter</span>
-                    <span class="skill-value">80%</span>
-                  </div>
-                  <div class="progress">
-                    <div
-                      class="progress-bar progress2"
-                      role="progressbar"
-                      aria-valuenow="60"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                      style="width: 80%"
-                    ></div>
-                  </div>
-                </div>
-                <div class="skill">
-                  <div class="title-progress">
-                    <span class="skill-name">Wordpress</span>
-                    <span class="skill-value">85%</span>
-                  </div>
-                  <div class="progress">
-                    <div
-                      class="progress-bar progress3"
-                      role="progressbar"
-                      aria-valuenow="60"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                      style="width: 85%"
-                    ></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-7">
-              <div class="additional-skills">
-                <div class="title-skills">
-                  <h3>ADDITIONAL SKILLS</h3>
-                </div>
-                <div class="circle-progress">
-                  <div class="row">
-                    <div class="col-sm-4">
-                      <div class="circle">
-                        <div class="chart-percentage">
-                          <span>90%</span>
-                        </div>
-                        <div class="chart" data-percent="90">
-                          <!-- canvas -->
-                        </div>
-                        <div class="name-circle">
-                          <span>English</span>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- / single circle skill -->
-                    <!-- single circle skill -->
-                    <div class="col-sm-4">
-                      <div class="circle">
-                        <div class="chart-percentage">
-                          <span>80%</span>
-                        </div>
-                        <div class="chart" data-percent="80">
-                          <!-- canvas -->
-                        </div>
-                        <div class="name-circle">
-                          <span>Teamwork</span>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- / single circle skill -->
-                    <!-- single circle skill -->
-                    <div class="col-sm-4">
-                      <div class="circle">
-                        <div class="chart-percentage">
-                          <span>65%</span>
-                        </div>
-                        <div class="chart" data-percent="65">
-                          <!-- canvas -->
-                        </div>
-                        <div class="name-circle">
-                          <span>Project Management</span>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- / single circle skill -->
-                  </div>
-                </div>
-                <div class="other-skills">
-                  <div class="row">
-                    <div class="col-sm-6">
-                      <div class="other">
-                        <!-- single other skill -->
-                        <div class="skill">
-                          <i
-                            class="fa fa-check-square-o"
-                            aria-hidden="true"
-                          ></i>
-                          <span>Third Party API integration</span>
-                        </div>
-                        <!-- / single other skill -->
-                        <!-- single other skill -->
-                        <div class="skill">
-                          <i
-                            class="fa fa-check-square-o"
-                            aria-hidden="true"
-                          ></i>
-                          <span>Payment Gateway Integration</span>
-                        </div>
-                        <!-- / single other skill -->
-                        <!-- single other skill -->
-                        <div class="skill">
-                          <i
-                            class="fa fa-check-square-o"
-                            aria-hidden="true"
-                          ></i>
-                          <span>AWS</span>
-                        </div>
-                        <!-- / single other skill -->
-                        <!-- single other skill -->
-                        <div class="skill">
-                          <i
-                            class="fa fa-check-square-o"
-                            aria-hidden="true"
-                          ></i>
-                          <span>Digital Ocean</span>
-                        </div>
-                        <!-- / single other skill -->
-                        <!-- single other skill -->
-                        <div class="skill">
-                          <i
-                            class="fa fa-check-square-o"
-                            aria-hidden="true"
-                          ></i>
-                          <span>Windows, Ubuntu , Centos</span>
-                        </div>
-                        <div class="skill">
-                          <i
-                            class="fa fa-check-square-o"
-                            aria-hidden="true"
-                          ></i>
-                          <span>Docker</span>
-                        </div>
-                       
-                      </div>
-                    </div>
-                    <div class="col-sm-6">
-                      <div class="other">
-                        <!-- single other skill -->
-                        <div class="skill">
-                          <i
-                            class="fa fa-check-square-o"
-                            aria-hidden="true"
-                          ></i>
-                          <span>Git</span>
-                        </div>
-                        <!-- / single other skill -->
-                        <!-- single other skill -->
-                        <div class="skill">
-                          <i
-                            class="fa fa-check-square-o"
-                            aria-hidden="true"
-                          ></i>
-                          <span>Mysql , MongoDB, Postgres</span>
-                        </div>
+  <!-- Icons -->
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
 
-                        <div class="skill">
-                          <i
-                            class="fa fa-check-square-o"
-                            aria-hidden="true"
-                          ></i>
-                          <span>Jira, Trello, Base camp</span>
-                        </div>
-                        <!-- / single other skill -->
-                        <!-- single other skill -->
-                        <div class="skill">
-                          <i
-                            class="fa fa-check-square-o"
-                            aria-hidden="true"
-                          ></i>
-                          <span>HTML, CSS, JavaScript</span>
-                        </div>
-                        <!-- / single other skill -->
-                        <!-- single other skill -->
-                        <div class="skill">
-                          <i
-                            class="fa fa-check-square-o"
-                            aria-hidden="true"
-                          ></i>
-                          <span>JSON/Rest API</span>
-                        </div>
-                        <!-- / single other skill -->
-                        <div class="skill">
-                          <i
-                            class="fa fa-check-square-o"
-                            aria-hidden="true"
-                          ></i>
-                          <span>Kubernetes</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- #CONTACT_US# -->
-        <section
-          id="contact-us"
-          class="section section-contact-us wow fadeInUp"
-          data-wow-offset="40"
-        >
-          <div class="header-section">
-            <h2 class="h2-section">CONTACT US</h2>
-          </div>
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="info-content">
-                <h3>KEEP IN TOUCH</h3>
-                <div class="address">
-                  <span class="info-icon"
-                    ><i class="fa fa-map-marker"></i
-                  ></span>
-                  <span class="info-text">Mumbai, Maharastra</span>
-                </div>
-                <div class="email">
-                  <span class="info-icon"><i class="fa fa-envelope"></i></span>
-                  <span class="info-text">manojujn[at]gmail.com</span>
-                </div>
-                <div class="telephone">
-                  <span class="info-icon"><i class="fa fa-phone"></i></span>
-                  <span class="info-text">+91-9970399685</span>
-                </div>
-                <div class="website">
-                  <span class="info-icon"><i class="fa fa-link"></i></span>
-                  <span class="info-text"
-                    >https://manojujn05.github.io/tech-profile/</span
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="social-links">
-            <ul>
-              <li>
-                <a href="https://www.facebook.com/manojujn/"
-                  ><i class="fa fa-facebook"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://twitter.com/ManojAg24865119"
-                  ><i class="fa fa-twitter"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/manoj-agrawal-6009b830/"
-                  ><i class="fa fa-linkedin"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://www.youtube.com/channel/UC1bAm1eghkdo0YWVMeUgWpg"
-                  ><i class="fa fa-youtube"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
-        </section>
+  <!-- Modern Stylesheet -->
+  <link rel="stylesheet" href="css/modern.css" />
+
+  <!-- Structured Data: Person Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Manoj Agrawal",
+    "jobTitle": "Technical Architect | AI Solutions Architect",
+    "url": "https://manojujn05.github.io/tech-profile/",
+    "image": "https://manojujn05.github.io/tech-profile/images/manoj.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Mumbai",
+      "addressRegion": "Maharashtra",
+      "addressCountry": "India"
+    },
+    "alumniOf": {
+      "@type": "EducationalOrganization",
+      "name": "MCA"
+    },
+    "knowsAbout": [
+      "Technical Architecture",
+      "AI Solutions Architecture",
+      "Large Language Models",
+      "Retrieval-Augmented Generation (RAG)",
+      "LangChain",
+      "LangGraph",
+      "Python",
+      "Vector Databases",
+      "SaaS Architecture",
+      "Cloud Architecture",
+      "AWS",
+      "Laravel",
+      "Node.js",
+      "React.js",
+      "Microservices",
+      "Distributed Systems"
+    ],
+    "sameAs": [
+      "https://www.linkedin.com/in/manoj-agrawal-6009b830/",
+      "https://twitter.com/ManojAg24865119",
+      "https://www.facebook.com/manojujn/",
+      "https://www.youtube.com/channel/UC1bAm1eghkdo0YWVMeUgWpg"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ==========================================================================
+       STICKY NAVIGATION HEADER
+       ========================================================================== -->
+  <header class="site-header" id="site-header">
+    <div class="container nav-container">
+      <a href="#about" class="nav-brand" aria-label="Manoj Agrawal Portfolio Home">
+        <span class="brand-badge">MA</span>
+        <span class="brand-text">
+          <span class="brand-name">Manoj Agrawal</span>
+          <span class="brand-role">Technical Architect</span>
+        </span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <a href="#about" class="nav-link active">About</a>
+        <a href="#summary" class="nav-link">Summary</a>
+        <a href="#ai-genai" class="nav-link">AI &amp; GenAI</a>
+        <a href="#architecture" class="nav-link">Architecture</a>
+        <a href="#tech-stack" class="nav-link">Stack</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#certifications" class="nav-link">Certifications</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle light/dark theme" title="Toggle Theme">
+          <i class="fa fa-sun-o" aria-hidden="true"></i>
+        </button>
+        <button id="mobile-toggle" class="mobile-toggle" aria-label="Open mobile navigation menu" aria-expanded="false">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </button>
       </div>
     </div>
+  </header>
 
-    <!-- #JQUERY-PLUGINS# -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/swiper.min.js"></script>
-    <script src="js/jquery.easypiechart.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/validator.min.js"></script>
-    <script src="js/form-scripts.js"></script>
-    <script src="js/script.js"></script>
-    <script>
-      /**** EasyPieChart Circle Progress ****/
-      $(function () {
-        //circle progress additional skills
-        $(".chart").easyPieChart({
-          barColor: "#757575",
-          trackColor: "rgba(255,255,255,0)",
-          scaleColor: "rgba(255,255,255,0)",
-          lineWidth: "10",
-          lineCap: "square",
-        });
-      });
-    </script>
-  </body>
+  <main id="main-content">
+    <!-- ==========================================================================
+         HERO / PROFILE SECTION
+         ========================================================================== -->
+    <section id="about" class="section hero-section">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="hero-badge-row">
+              <span class="hero-pill">
+                <span class="pulse-dot"></span>
+                15+ Years Technical Leadership
+              </span>
+              <span class="hero-pill">
+                <i class="fa fa-cloud" aria-hidden="true"></i>
+                AWS Certified
+              </span>
+            </div>
+
+            <h1 class="hero-title">MANOJ AGRAWAL</h1>
+            <h2 class="hero-headline">
+              Technical Architect | AI Solutions Architect | SaaS &amp; Cloud Engineering
+            </h2>
+
+            <p class="hero-desc">
+              Technical Architect with 15+ years of experience designing and delivering scalable web, SaaS, cloud and AI-powered applications across e-commerce, banking, finance, learning platforms and business automation.
+            </p>
+
+            <div class="hero-ai-focus">
+              <strong>AI Engineering Focus:</strong> Currently focused on applying Python, LLMs, RAG, vector databases, LangChain, LangGraph and agentic AI workflows to build intelligent business applications.
+            </div>
+
+            <div class="hero-actions">
+              <a href="#experience" class="btn btn-primary">
+                <i class="fa fa-briefcase" aria-hidden="true"></i> View Experience
+              </a>
+              <a href="#ai-genai" class="btn btn-secondary">
+                <i class="fa fa-cogs" aria-hidden="true"></i> Explore AI &amp; Technical Skills
+              </a>
+              <a href="#contact" class="btn btn-outline">
+                <i class="fa fa-envelope" aria-hidden="true"></i> Contact Me
+              </a>
+              <a href="https://www.linkedin.com/in/manoj-agrawal-6009b830/" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                <i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn
+              </a>
+            </div>
+
+            <div class="hero-meta-row">
+              <div class="hero-meta-item">
+                <span class="hero-meta-label">Experience</span>
+                <span class="hero-meta-value">15+ Years</span>
+              </div>
+              <div class="hero-meta-item">
+                <span class="hero-meta-label">Qualification</span>
+                <span class="hero-meta-value">MCA</span>
+              </div>
+              <div class="hero-meta-item">
+                <span class="hero-meta-label">Location</span>
+                <span class="hero-meta-value">Mumbai, India</span>
+              </div>
+              <div class="hero-meta-item">
+                <span class="hero-meta-label">Focus Areas</span>
+                <span class="hero-meta-value">SaaS, Cloud &amp; AI Systems</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-card-wrapper">
+            <div class="hero-profile-card">
+              <div class="profile-avatar-container">
+                <img src="images/manoj.jpg" alt="Manoj Agrawal - Technical Architect" class="profile-avatar" />
+              </div>
+
+              <div class="profile-cert-badge">
+                <img src="images/aws-certified-cloud-practitioner.png" alt="AWS Certified Cloud Practitioner Badge" class="cert-badge-img" />
+                <div class="cert-badge-info">
+                  <h4>AWS Certified</h4>
+                  <span>Cloud Practitioner</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         PROFESSIONAL SUMMARY SECTION
+         ========================================================================== -->
+    <section id="summary" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Executive Profile</span>
+          <h2 class="section-title">Professional Summary</h2>
+          <p class="section-subtitle">A balanced fusion of traditional enterprise software architecture and cutting-edge AI engineering.</p>
+        </div>
+
+        <div class="summary-card">
+          <div class="summary-content">
+            <div class="summary-text">
+              <p>
+                Technical Architect and engineering leader with <strong>15+ years of experience</strong> across software architecture, SaaS platforms, e-commerce, banking, finance, learning management systems and business automation.
+              </p>
+              <p>
+                Experienced in designing scalable applications, distributed integrations, cloud infrastructure and API-driven systems using <strong>Laravel, PHP, Node.js, React, TypeScript, ASP.NET/C#</strong> and modern databases.
+              </p>
+              <p>
+                Currently expanding this architecture expertise into <strong>AI engineering with Python, Large Language Models, Retrieval-Augmented Generation (RAG), vector databases, LangChain, LangGraph and agentic workflows</strong>.
+              </p>
+              <p>
+                Focused on building practical AI systems that integrate with real business processes, enterprise data, APIs and SaaS platforms.
+              </p>
+            </div>
+
+            <div class="summary-highlights">
+              <div class="highlight-box">
+                <i class="fa fa-cubes highlight-icon" aria-hidden="true"></i>
+                <div class="highlight-data">
+                  <h4>Enterprise SaaS</h4>
+                  <p>Multi-tenant &amp; API-first</p>
+                </div>
+              </div>
+              <div class="highlight-box">
+                <i class="fa fa-microchip highlight-icon" aria-hidden="true"></i>
+                <div class="highlight-data">
+                  <h4>AI &amp; RAG Engineering</h4>
+                  <p>Agentic workflows &amp; LLMs</p>
+                </div>
+              </div>
+              <div class="highlight-box">
+                <i class="fa fa-users highlight-icon" aria-hidden="true"></i>
+                <div class="highlight-data">
+                  <h4>Technical Leadership</h4>
+                  <p>Mentorship, architecture &amp; delivery</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         AI & GENERATIVE AI SECTION
+         ========================================================================== -->
+    <section id="ai-genai" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Intelligent Systems</span>
+          <h2 class="section-title">AI &amp; <span class="text-gradient">Generative AI</span></h2>
+          <p class="section-subtitle">
+            Applying state-of-the-art AI technologies to create real-world enterprise applications, grounded retrieval pipelines, and autonomous agent workflows.
+          </p>
+        </div>
+
+        <div class="ai-cards-grid">
+          <!-- Python Card -->
+          <div class="ai-card">
+            <div class="ai-card-header">
+              <div class="ai-card-icon">
+                <i class="fa fa-code" aria-hidden="true"></i>
+              </div>
+              <h3 class="ai-card-title">Python</h3>
+            </div>
+            <p class="ai-card-desc">
+              Python application development, automation, AI/ML integrations and backend services. Building scalable services for document ingestion, data transformations, and AI pipelines.
+            </p>
+            <div class="ai-card-tags">
+              <span class="tech-chip featured">Python 3.x</span>
+              <span class="tech-chip">Async IO</span>
+              <span class="tech-chip">FastAPI</span>
+              <span class="tech-chip">Automation</span>
+            </div>
+          </div>
+
+          <!-- LLM Applications Card -->
+          <div class="ai-card">
+            <div class="ai-card-header">
+              <div class="ai-card-icon">
+                <i class="fa fa-comments-o" aria-hidden="true"></i>
+              </div>
+              <h3 class="ai-card-title">LLM Applications</h3>
+            </div>
+            <p class="ai-card-desc">
+              Building applications around Large Language Models, structured prompts, tool calling and business workflows. Implementing deterministic schemas and evaluation loops for production quality.
+            </p>
+            <div class="ai-card-tags">
+              <span class="tech-chip featured">Structured Outputs</span>
+              <span class="tech-chip">Tool Calling</span>
+              <span class="tech-chip">Prompt Engineering</span>
+            </div>
+          </div>
+
+          <!-- RAG Card -->
+          <div class="ai-card">
+            <div class="ai-card-header">
+              <div class="ai-card-icon">
+                <i class="fa fa-database" aria-hidden="true"></i>
+              </div>
+              <h3 class="ai-card-title">RAG Pipelines</h3>
+            </div>
+            <p class="ai-card-desc">
+              Retrieval-Augmented Generation pipelines including document ingestion, chunking, embeddings, semantic search, retrieval, context augmentation, and grounded responses without hallucinations.
+            </p>
+            <div class="ai-card-tags">
+              <span class="tech-chip featured">Semantic Search</span>
+              <span class="tech-chip">Chunking Strategies</span>
+              <span class="tech-chip">Embeddings</span>
+              <span class="tech-chip">Grounded Context</span>
+            </div>
+          </div>
+
+          <!-- Vector Databases Card -->
+          <div class="ai-card">
+            <div class="ai-card-header">
+              <div class="ai-card-icon">
+                <i class="fa fa-server" aria-hidden="true"></i>
+              </div>
+              <h3 class="ai-card-title">Vector Databases</h3>
+            </div>
+            <p class="ai-card-desc">
+              Indexing and query management using Pinecone and Chroma. Designing hybrid search pipelines, vector similarity indexing, metadata filtering, and high-performance semantic retrieval.
+            </p>
+            <div class="ai-card-tags">
+              <span class="tech-chip featured">Pinecone</span>
+              <span class="tech-chip featured">Chroma</span>
+              <span class="tech-chip">Vector Similarity</span>
+              <span class="tech-chip">Metadata Filters</span>
+            </div>
+          </div>
+
+          <!-- LangChain Card -->
+          <div class="ai-card">
+            <div class="ai-card-header">
+              <div class="ai-card-icon">
+                <i class="fa fa-link" aria-hidden="true"></i>
+              </div>
+              <h3 class="ai-card-title">LangChain</h3>
+            </div>
+            <p class="ai-card-desc">
+              Harnessing modular LangChain components: chains, retrievers, tools, agents, document loaders, embeddings, and vector stores to build maintainable enterprise AI architectures.
+            </p>
+            <div class="ai-card-tags">
+              <span class="tech-chip featured">Chains</span>
+              <span class="tech-chip">Document Loaders</span>
+              <span class="tech-chip">Vector Stores</span>
+              <span class="tech-chip">Custom Tools</span>
+            </div>
+          </div>
+
+          <!-- LangGraph Card -->
+          <div class="ai-card">
+            <div class="ai-card-header">
+              <div class="ai-card-icon">
+                <i class="fa fa-sitemap" aria-hidden="true"></i>
+              </div>
+              <h3 class="ai-card-title">LangGraph</h3>
+            </div>
+            <p class="ai-card-desc">
+              Stateful workflows, agent orchestration, multi-step reasoning workflows, conditional routing, tool execution, cyclical graphs, and human-in-the-loop workflows for dependable automation.
+            </p>
+            <div class="ai-card-tags">
+              <span class="tech-chip featured">State Graphs</span>
+              <span class="tech-chip">Multi-Step Reasoning</span>
+              <span class="tech-chip">Agent Orchestration</span>
+              <span class="tech-chip">Human-in-the-Loop</span>
+            </div>
+          </div>
+
+          <!-- AI Agents Card -->
+          <div class="ai-card">
+            <div class="ai-card-header">
+              <div class="ai-card-icon">
+                <i class="fa fa-cogs" aria-hidden="true"></i>
+              </div>
+              <h3 class="ai-card-title">AI Agents</h3>
+            </div>
+            <p class="ai-card-desc">
+              Tool-enabled autonomous agents, workflow automation, API/tool integration, multi-step business processes, permission validation, and human approval verification checkpoints.
+            </p>
+            <div class="ai-card-tags">
+              <span class="tech-chip featured">Tool-Enabled</span>
+              <span class="tech-chip">Workflow Automation</span>
+              <span class="tech-chip">Approval Gates</span>
+              <span class="tech-chip">API Execution</span>
+            </div>
+          </div>
+
+          <!-- AI Integration Card -->
+          <div class="ai-card">
+            <div class="ai-card-header">
+              <div class="ai-card-icon">
+                <i class="fa fa-plug" aria-hidden="true"></i>
+              </div>
+              <h3 class="ai-card-title">AI Integration</h3>
+            </div>
+            <p class="ai-card-desc">
+              Integration of AI capabilities into existing SaaS applications, REST APIs, enterprise databases, business workflows, queue workers, and automation platforms.
+            </p>
+            <div class="ai-card-tags">
+              <span class="tech-chip featured">SaaS Integration</span>
+              <span class="tech-chip">REST APIs</span>
+              <span class="tech-chip">DB Connectors</span>
+              <span class="tech-chip">Background Queues</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         AI ARCHITECTURE VISUAL DIAGRAM
+         ========================================================================== -->
+    <section id="ai-architecture" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">System Blueprints</span>
+          <h2 class="section-title">AI Application <span class="text-gradient">Architecture</span></h2>
+          <p class="section-subtitle">
+            Visual representation of an enterprise RAG and agentic execution pipeline, bridging user queries with corporate data stores and tool ecosystems.
+          </p>
+        </div>
+
+        <div class="ai-diagram-wrapper">
+          <div class="diagram-header-note">
+            <div class="diagram-title">
+              <i class="fa fa-sliders" aria-hidden="true"></i>
+              <span>End-to-End Orchestration &amp; RAG Flow</span>
+            </div>
+            <div class="diagram-legend">
+              <div class="legend-item">
+                <span class="legend-dot flow"></span> Core Pipeline
+              </div>
+              <div class="legend-item">
+                <span class="legend-dot tool"></span> Tool Calling
+              </div>
+              <div class="legend-item">
+                <span class="legend-dot human"></span> Human Approval
+              </div>
+            </div>
+          </div>
+
+          <!-- Main Linear Flow -->
+          <div class="pipeline-flow">
+            <div class="pipeline-node">
+              <div class="pipeline-node-icon"><i class="fa fa-user" aria-hidden="true"></i></div>
+              <div class="pipeline-node-name">User</div>
+              <div class="pipeline-node-sub">Client Query</div>
+            </div>
+
+            <div class="pipeline-node">
+              <div class="pipeline-node-icon"><i class="fa fa-desktop" aria-hidden="true"></i></div>
+              <div class="pipeline-node-name">Application</div>
+              <div class="pipeline-node-sub">SaaS / API Gateway</div>
+            </div>
+
+            <div class="pipeline-node accent">
+              <div class="pipeline-node-icon"><i class="fa fa-brain" aria-hidden="true"></i><i class="fa fa-microchip" aria-hidden="true"></i></div>
+              <div class="pipeline-node-name">LLM / AI Agent</div>
+              <div class="pipeline-node-sub">Intent &amp; Routing</div>
+            </div>
+
+            <div class="pipeline-node accent">
+              <div class="pipeline-node-icon"><i class="fa fa-sitemap" aria-hidden="true"></i></div>
+              <div class="pipeline-node-name">LangGraph / Chain</div>
+              <div class="pipeline-node-sub">State Orchestration</div>
+            </div>
+
+            <div class="pipeline-node">
+              <div class="pipeline-node-icon"><i class="fa fa-search" aria-hidden="true"></i></div>
+              <div class="pipeline-node-name">Retriever</div>
+              <div class="pipeline-node-sub">Hybrid Search</div>
+            </div>
+
+            <div class="pipeline-node">
+              <div class="pipeline-node-icon"><i class="fa fa-database" aria-hidden="true"></i></div>
+              <div class="pipeline-node-name">Vector DB</div>
+              <div class="pipeline-node-sub">Pinecone / Chroma</div>
+            </div>
+
+            <div class="pipeline-node">
+              <div class="pipeline-node-icon"><i class="fa fa-file-text-o" aria-hidden="true"></i></div>
+              <div class="pipeline-node-name">Business Data</div>
+              <div class="pipeline-node-sub">Docs &amp; Schemas</div>
+            </div>
+
+            <div class="pipeline-node accent">
+              <div class="pipeline-node-icon"><i class="fa fa-check-circle" aria-hidden="true"></i></div>
+              <div class="pipeline-node-name">Response</div>
+              <div class="pipeline-node-sub">Grounded Output</div>
+            </div>
+          </div>
+
+          <!-- Supplementary Action Nodes -->
+          <div class="diagram-branches">
+            <div class="branch-card">
+              <div class="branch-icon"><i class="fa fa-wrench" aria-hidden="true"></i></div>
+              <div class="branch-content">
+                <h5>Tools &amp; External APIs</h5>
+                <p>Dynamic execution of third-party SaaS endpoints, SQL database queries, and background worker jobs via structured tool contracts.</p>
+              </div>
+            </div>
+
+            <div class="branch-card">
+              <div class="branch-icon human"><i class="fa fa-shield" aria-hidden="true"></i></div>
+              <div class="branch-content">
+                <h5>Human-in-the-Loop Verification</h5>
+                <p>Conditional checkpoint stops requiring managerial approval or confirmation before irreversible mutations or financial transactions execute.</p>
+              </div>
+            </div>
+
+            <div class="branch-card">
+              <div class="branch-icon integration"><i class="fa fa-refresh" aria-hidden="true"></i></div>
+              <div class="branch-content">
+                <h5>Enterprise Data Synchronization</h5>
+                <p>Real-time webhook ingestion and scheduled batch sync keeping vector indexes fresh and semantically aligned with relational data.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         ARCHITECTURE EXPERTISE SECTION
+         ========================================================================== -->
+    <section id="architecture" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">System Design Patterns</span>
+          <h2 class="section-title">Architecture <span class="text-gradient">Expertise</span></h2>
+          <p class="section-subtitle">
+            15+ years of designing resilient, decoupled, and high-throughput systems engineered for reliability, security, and sustained business growth.
+          </p>
+        </div>
+
+        <div class="arch-grid">
+          <div class="arch-card">
+            <div class="arch-icon"><i class="fa fa-cloud" aria-hidden="true"></i></div>
+            <h3 class="arch-title">SaaS Architecture</h3>
+            <p class="arch-desc">Scalable multi-tenant foundations with isolated tenant data, automated provisioning, and subscription billing lifecycles.</p>
+          </div>
+
+          <div class="arch-card">
+            <div class="arch-icon"><i class="fa fa-users" aria-hidden="true"></i></div>
+            <h3 class="arch-title">Multi-Tenant Applications</h3>
+            <p class="arch-desc">Shared infrastructure architectures with strict tenant isolation, granular RBAC, and zero cross-tenant leakage.</p>
+          </div>
+
+          <div class="arch-card">
+            <div class="arch-icon"><i class="fa fa-code-fork" aria-hidden="true"></i></div>
+            <h3 class="arch-title">API-First Architecture</h3>
+            <p class="arch-desc">Contract-driven REST and webhook interfaces built for developer experience, backward compatibility, and external integrators.</p>
+          </div>
+
+          <div class="arch-card">
+            <div class="arch-icon"><i class="fa fa-server" aria-hidden="true"></i></div>
+            <h3 class="arch-title">Cloud Architecture</h3>
+            <p class="arch-desc">Resilient AWS infrastructure leveraging auto-scaling, VPC isolation, containerized ECS/EKS clusters, and high availability.</p>
+          </div>
+
+          <div class="arch-card">
+            <div class="arch-icon"><i class="fa fa-cubes" aria-hidden="true"></i></div>
+            <h3 class="arch-title">Microservices</h3>
+            <p class="arch-desc">Domain-driven bounded contexts communicating via lightweight HTTP/gRPC interfaces for independent team deployment.</p>
+          </div>
+
+          <div class="arch-card">
+            <div class="arch-icon"><i class="fa fa-bolt" aria-hidden="true"></i></div>
+            <h3 class="arch-title">Event-Driven Architecture</h3>
+            <p class="arch-desc">Asynchronous pub/sub event channels decoupling transactional services to gracefully handle high peak volumes.</p>
+          </div>
+
+          <div class="arch-card">
+            <div class="arch-icon"><i class="fa fa-microchip" aria-hidden="true"></i></div>
+            <h3 class="arch-title">AI Application Architecture</h3>
+            <p class="arch-desc">Production design patterns integrating LLMs, context management, prompt templates, and corporate software layers.</p>
+          </div>
+
+          <div class="arch-card">
+            <div class="arch-icon"><i class="fa fa-search" aria-hidden="true"></i></div>
+            <h3 class="arch-title">RAG Architecture</h3>
+            <p class="arch-desc">Low-latency retrieval pipelines with smart chunking, dense vector indexing, and grounded context injection.</p>
+          </div>
+
+          <div class="arch-card">
+            <div class="arch-icon"><i class="fa fa-sitemap" aria-hidden="true"></i></div>
+            <h3 class="arch-title">Agentic AI Workflows</h3>
+            <p class="arch-desc">Autonomous multi-step task execution systems orchestrated through cyclical state graphs and dynamic tool calling.</p>
+          </div>
+
+          <div class="arch-card">
+            <div class="arch-icon"><i class="fa fa-database" aria-hidden="true"></i></div>
+            <h3 class="arch-title">Database Architecture</h3>
+            <p class="arch-desc">Relational and NoSQL schemas optimized for write/read balance, indexing efficiency, replication, and data integrity.</p>
+          </div>
+
+          <div class="arch-card">
+            <div class="arch-icon"><i class="fa fa-exchange" aria-hidden="true"></i></div>
+            <h3 class="arch-title">Integration Architecture</h3>
+            <p class="arch-desc">Robust middleware layers connecting proprietary SaaS applications with legacy enterprise software and third-party APIs.</p>
+          </div>
+
+          <div class="arch-card">
+            <div class="arch-icon"><i class="fa fa-globe" aria-hidden="true"></i></div>
+            <h3 class="arch-title">Scalable Web Applications</h3>
+            <p class="arch-desc">High-concurrency web applications optimized with tiered caching, asset offloading, and optimized backend query paths.</p>
+          </div>
+
+          <div class="arch-card">
+            <div class="arch-icon"><i class="fa fa-lock" aria-hidden="true"></i></div>
+            <h3 class="arch-title">Security &amp; Authentication</h3>
+            <p class="arch-desc">Standardized authentication layers utilizing OAuth 2.0, JWT, role-based access control, payload encryption, and rate limiting.</p>
+          </div>
+
+          <div class="arch-card">
+            <div class="arch-icon"><i class="fa fa-tasks" aria-hidden="true"></i></div>
+            <h3 class="arch-title">Queue &amp; Background Processing</h3>
+            <p class="arch-desc">Distributed background workers handling batch operations, synchronization jobs, emails, and data crunching asynchronously.</p>
+          </div>
+
+          <div class="arch-card">
+            <div class="arch-icon"><i class="fa fa-plug" aria-hidden="true"></i></div>
+            <h3 class="arch-title">Third-Party API Integration</h3>
+            <p class="arch-desc">Fault-tolerant integration with payment gateways, marketplace platforms, logistics carriers, and communication webhooks.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         TECHNOLOGY STACK VISUALIZATION
+         ========================================================================== -->
+    <section id="tech-stack" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Full-Stack Blueprint</span>
+          <h2 class="section-title">Architectural <span class="text-gradient">Technology Stack</span></h2>
+          <p class="section-subtitle">A multi-tiered visualization of core technologies applied across architecture, engineering, data, and cloud infrastructure.</p>
+        </div>
+
+        <div class="tech-stack-container">
+          <!-- Layer 1: AI -->
+          <div class="stack-layer">
+            <div class="layer-info">
+              <div class="layer-icon ai"><i class="fa fa-magic" aria-hidden="true"></i></div>
+              <div class="layer-text">
+                <h4>AI &amp; GenAI Layer</h4>
+                <span>Intelligent Orchestration</span>
+              </div>
+            </div>
+            <div class="layer-items">
+              <span class="stack-badge"><i class="fa fa-code"></i> Python</span>
+              <span class="stack-badge"><i class="fa fa-link"></i> LangChain</span>
+              <span class="stack-badge"><i class="fa fa-sitemap"></i> LangGraph</span>
+              <span class="stack-badge"><i class="fa fa-search"></i> RAG Pipelines</span>
+              <span class="stack-badge"><i class="fa fa-database"></i> Pinecone</span>
+              <span class="stack-badge"><i class="fa fa-database"></i> Chroma</span>
+              <span class="stack-badge"><i class="fa fa-commenting-o"></i> LLM Integration</span>
+            </div>
+          </div>
+
+          <!-- Layer 2: Backend -->
+          <div class="stack-layer">
+            <div class="layer-info">
+              <div class="layer-icon backend"><i class="fa fa-server" aria-hidden="true"></i></div>
+              <div class="layer-text">
+                <h4>Backend &amp; APIs</h4>
+                <span>Core Business Logic</span>
+              </div>
+            </div>
+            <div class="layer-items">
+              <span class="stack-badge"><i class="fa fa-cube"></i> Laravel</span>
+              <span class="stack-badge"><i class="fa fa-code"></i> PHP</span>
+              <span class="stack-badge"><i class="fa fa-terminal"></i> Node.js</span>
+              <span class="stack-badge"><i class="fa fa-windows"></i> ASP.NET</span>
+              <span class="stack-badge"><i class="fa fa-code"></i> C#</span>
+              <span class="stack-badge"><i class="fa fa-exchange"></i> REST APIs</span>
+              <span class="stack-badge"><i class="fa fa-cogs"></i> Microservices</span>
+            </div>
+          </div>
+
+          <!-- Layer 3: Frontend -->
+          <div class="stack-layer">
+            <div class="layer-info">
+              <div class="layer-icon frontend"><i class="fa fa-desktop" aria-hidden="true"></i></div>
+              <div class="layer-text">
+                <h4>Frontend &amp; UI</h4>
+                <span>Client Applications</span>
+              </div>
+            </div>
+            <div class="layer-items">
+              <span class="stack-badge"><i class="fa fa-atom"></i> React.js</span>
+              <span class="stack-badge"><i class="fa fa-code"></i> Vue.js</span>
+              <span class="stack-badge"><i class="fa fa-code"></i> TypeScript</span>
+              <span class="stack-badge"><i class="fa fa-code"></i> JavaScript</span>
+              <span class="stack-badge"><i class="fa fa-html5"></i> HTML5</span>
+              <span class="stack-badge"><i class="fa fa-css3"></i> CSS3</span>
+            </div>
+          </div>
+
+          <!-- Layer 4: Data -->
+          <div class="stack-layer">
+            <div class="layer-info">
+              <div class="layer-icon data"><i class="fa fa-database" aria-hidden="true"></i></div>
+              <div class="layer-text">
+                <h4>Data &amp; Persistence</h4>
+                <span>Storage &amp; Retrieval</span>
+              </div>
+            </div>
+            <div class="layer-items">
+              <span class="stack-badge"><i class="fa fa-database"></i> MySQL</span>
+              <span class="stack-badge"><i class="fa fa-database"></i> PostgreSQL</span>
+              <span class="stack-badge"><i class="fa fa-database"></i> MongoDB</span>
+              <span class="stack-badge"><i class="fa fa-database"></i> SQL Server</span>
+              <span class="stack-badge"><i class="fa fa-database"></i> Vector Stores</span>
+            </div>
+          </div>
+
+          <!-- Layer 5: Cloud -->
+          <div class="stack-layer">
+            <div class="layer-info">
+              <div class="layer-icon cloud"><i class="fa fa-cloud" aria-hidden="true"></i></div>
+              <div class="layer-text">
+                <h4>Cloud &amp; DevOps</h4>
+                <span>Infrastructure &amp; CI/CD</span>
+              </div>
+            </div>
+            <div class="layer-items">
+              <span class="stack-badge"><i class="fa fa-cloud"></i> AWS</span>
+              <span class="stack-badge"><i class="fa fa-cubes"></i> Docker</span>
+              <span class="stack-badge"><i class="fa fa-anchor"></i> Kubernetes</span>
+              <span class="stack-badge"><i class="fa fa-linux"></i> Linux (Ubuntu, CentOS)</span>
+              <span class="stack-badge"><i class="fa fa-refresh"></i> CI/CD Pipelines</span>
+              <span class="stack-badge"><i class="fa fa-cloud"></i> DigitalOcean</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SKILLS SECTION (CATEGORIZED TILES - NO PERCENTAGES)
+         ========================================================================== -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Categorized Capabilities</span>
+          <h2 class="section-title">Technical &amp; <span class="text-gradient">Leadership Skills</span></h2>
+          <p class="section-subtitle">Comprehensive technology domain proficiencies structured for transparent technical assessment.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Category: Architecture & Backend -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <i class="fa fa-server category-icon" aria-hidden="true"></i>
+              <h3 class="category-title">Architecture &amp; Backend</h3>
+            </div>
+            <div class="skill-chips-wrap">
+              <span class="skill-chip">Laravel</span>
+              <span class="skill-chip">PHP</span>
+              <span class="skill-chip">Node.js</span>
+              <span class="skill-chip">Python</span>
+              <span class="skill-chip">ASP.NET</span>
+              <span class="skill-chip">C#</span>
+              <span class="skill-chip">REST APIs</span>
+              <span class="skill-chip">Microservices</span>
+              <span class="skill-chip">API Integration</span>
+              <span class="skill-chip">CodeIgniter</span>
+            </div>
+          </div>
+
+          <!-- Category: Frontend -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <i class="fa fa-desktop category-icon" aria-hidden="true"></i>
+              <h3 class="category-title">Frontend Engineering</h3>
+            </div>
+            <div class="skill-chips-wrap">
+              <span class="skill-chip">React.js</span>
+              <span class="skill-chip">Vue.js</span>
+              <span class="skill-chip">JavaScript</span>
+              <span class="skill-chip">TypeScript</span>
+              <span class="skill-chip">HTML5</span>
+              <span class="skill-chip">CSS3</span>
+              <span class="skill-chip">jQuery</span>
+              <span class="skill-chip">Responsive Web UI</span>
+            </div>
+          </div>
+
+          <!-- Category: AI Engineering -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <i class="fa fa-microchip category-icon" aria-hidden="true"></i>
+              <h3 class="category-title">AI Engineering Focus</h3>
+            </div>
+            <div class="skill-chips-wrap">
+              <span class="skill-chip">Python</span>
+              <span class="skill-chip">LLM Applications</span>
+              <span class="skill-chip">RAG Pipelines</span>
+              <span class="skill-chip">LangChain</span>
+              <span class="skill-chip">LangGraph</span>
+              <span class="skill-chip">AI Agents</span>
+              <span class="skill-chip">Prompt Engineering</span>
+              <span class="skill-chip">Embeddings</span>
+              <span class="skill-chip">Semantic Search</span>
+              <span class="skill-chip">Vector Databases</span>
+              <span class="skill-chip">Pinecone</span>
+              <span class="skill-chip">Chroma</span>
+            </div>
+          </div>
+
+          <!-- Category: Databases -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <i class="fa fa-database category-icon" aria-hidden="true"></i>
+              <h3 class="category-title">Databases &amp; Storage</h3>
+            </div>
+            <div class="skill-chips-wrap">
+              <span class="skill-chip">MySQL</span>
+              <span class="skill-chip">PostgreSQL</span>
+              <span class="skill-chip">MongoDB</span>
+              <span class="skill-chip">SQL Server</span>
+              <span class="skill-chip">Schema Optimization</span>
+              <span class="skill-chip">Query Tuning</span>
+            </div>
+          </div>
+
+          <!-- Category: Cloud & DevOps -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <i class="fa fa-cloud category-icon" aria-hidden="true"></i>
+              <h3 class="category-title">Cloud &amp; DevOps</h3>
+            </div>
+            <div class="skill-chips-wrap">
+              <span class="skill-chip">AWS</span>
+              <span class="skill-chip">Docker</span>
+              <span class="skill-chip">Kubernetes</span>
+              <span class="skill-chip">Linux (Ubuntu, CentOS)</span>
+              <span class="skill-chip">CI/CD Pipelines</span>
+              <span class="skill-chip">DigitalOcean</span>
+              <span class="skill-chip">Git</span>
+            </div>
+          </div>
+
+          <!-- Category: Integration & Platforms -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <i class="fa fa-plug category-icon" aria-hidden="true"></i>
+              <h3 class="category-title">Integration &amp; Platforms</h3>
+            </div>
+            <div class="skill-chips-wrap">
+              <span class="skill-chip">REST APIs</span>
+              <span class="skill-chip">Third-Party API Integration</span>
+              <span class="skill-chip">Payment Gateway Integration</span>
+              <span class="skill-chip">Marketplace APIs</span>
+              <span class="skill-chip">OAuth 2.0</span>
+              <span class="skill-chip">Webhooks</span>
+              <span class="skill-chip">JSON / XML</span>
+            </div>
+          </div>
+
+          <!-- Category: Engineering & Management -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <i class="fa fa-briefcase category-icon" aria-hidden="true"></i>
+              <h3 class="category-title">Engineering &amp; Leadership</h3>
+            </div>
+            <div class="skill-chips-wrap">
+              <span class="skill-chip">System Architecture</span>
+              <span class="skill-chip">Technical Leadership</span>
+              <span class="skill-chip">Team Leadership</span>
+              <span class="skill-chip">Project Management</span>
+              <span class="skill-chip">Agile / Scrum</span>
+              <span class="skill-chip">Code Reviews</span>
+              <span class="skill-chip">Technical Documentation</span>
+              <span class="skill-chip">Jira, Trello, Basecamp</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         EXPERIENCE SECTION (TIMELINE)
+         ========================================================================== -->
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Career Trajectory</span>
+          <h2 class="section-title">Professional <span class="text-gradient">Experience</span></h2>
+          <p class="section-subtitle">
+            15+ years of delivering high-impact SaaS platforms, cloud infrastructure, and technical leadership across diverse global industries.
+          </p>
+        </div>
+
+        <div class="timeline-container">
+          <!-- Experience 1 -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Technical Architect &amp; Engineering Lead</h3>
+                  <div class="timeline-company">
+                    <i class="fa fa-building-o" aria-hidden="true"></i> Technology &amp; Enterprise Solutions
+                  </div>
+                </div>
+                <span class="timeline-period">2021 — Present</span>
+              </div>
+
+              <ul class="timeline-points">
+                <li>Direct the architectural vision, cloud infrastructure, and technical roadmap for multi-tenant SaaS products and enterprise business systems.</li>
+                <li>Design AI-driven features: architecting Retrieval-Augmented Generation (RAG) pipelines, LangChain/LangGraph agentic state machines, and vector search integrations using Python, Pinecone, and Chroma.</li>
+                <li>Engineer resilient cloud architectures on AWS utilizing Docker containers, microservices, and automated CI/CD pipelines.</li>
+                <li>Mentor cross-functional engineering teams, oversee code reviews, define API contract standards, and steer agile delivery schedules.</li>
+              </ul>
+
+              <div class="timeline-tech-stack">
+                <span class="tech-chip">Python</span>
+                <span class="tech-chip">LangChain</span>
+                <span class="tech-chip">LangGraph</span>
+                <span class="tech-chip">RAG</span>
+                <span class="tech-chip">Laravel</span>
+                <span class="tech-chip">Node.js</span>
+                <span class="tech-chip">React.js</span>
+                <span class="tech-chip">AWS</span>
+                <span class="tech-chip">Docker</span>
+                <span class="tech-chip">PostgreSQL</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 2 -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Lead Solution Architect</h3>
+                  <div class="timeline-company">
+                    <i class="fa fa-building-o" aria-hidden="true"></i> SaaS &amp; Cloud Platforms
+                  </div>
+                </div>
+                <span class="timeline-period">2017 — 2021</span>
+              </div>
+
+              <ul class="timeline-points">
+                <li>Architected complex multi-channel eCommerce synchronization engines connecting Shopify, Amazon, WooCommerce, Shopee, Lazada, and TikTok Shop.</li>
+                <li>Engineered high-throughput background queue architectures processing millions of inventory updates, webhook payloads, and order lifecycle mutations with zero data loss.</li>
+                <li>Implemented secure payment gateway integrations, OAuth2 identity authentication, and distributed multi-tier database caching.</li>
+                <li>Collaborated closely with founders and business stakeholders to translate strategic business objectives into robust, scalable software architectures.</li>
+              </ul>
+
+              <div class="timeline-tech-stack">
+                <span class="tech-chip">Laravel</span>
+                <span class="tech-chip">PHP</span>
+                <span class="tech-chip">Vue.js</span>
+                <span class="tech-chip">Inertia.js</span>
+                <span class="tech-chip">MySQL</span>
+                <span class="tech-chip">AWS</span>
+                <span class="tech-chip">Redis</span>
+                <span class="tech-chip">Marketplace APIs</span>
+                <span class="tech-chip">Webhooks</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 3 -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Senior Full-Stack Architect / Tech Lead</h3>
+                  <div class="timeline-company">
+                    <i class="fa fa-building-o" aria-hidden="true"></i> Banking, Finance &amp; LMS Systems
+                  </div>
+                </div>
+                <span class="timeline-period">2013 — 2017</span>
+              </div>
+
+              <ul class="timeline-points">
+                <li>Architected and delivered mission-critical web applications across Share Market analytics, Banking portals, and Learning Management Systems (LMS).</li>
+                <li>Designed robust web and service layers using ASP.NET, C#, PHP, JavaScript, and relational databases (SQL Server, MySQL, PostgreSQL).</li>
+                <li>Integrated banking payment gateways, real-time market data feeds, and high-security compliance controls.</li>
+                <li>Configured and maintained Linux servers (Ubuntu, CentOS), deployment automation, and production monitoring.</li>
+              </ul>
+
+              <div class="timeline-tech-stack">
+                <span class="tech-chip">ASP.NET</span>
+                <span class="tech-chip">C#</span>
+                <span class="tech-chip">PHP</span>
+                <span class="tech-chip">JavaScript</span>
+                <span class="tech-chip">SQL Server</span>
+                <span class="tech-chip">MySQL</span>
+                <span class="tech-chip">Linux (Ubuntu/CentOS)</span>
+                <span class="tech-chip">REST APIs</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 4 -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Senior Software Engineer</h3>
+                  <div class="timeline-company">
+                    <i class="fa fa-building-o" aria-hidden="true"></i> Web Applications &amp; Enterprise Software
+                  </div>
+                </div>
+                <span class="timeline-period">2009 — 2013</span>
+              </div>
+
+              <ul class="timeline-points">
+                <li>Engineered high-performance web applications, dynamic database backends, and custom CMS/eCommerce platforms.</li>
+                <li>Built custom API integrations, automated data import/export routines, and optimized database queries for responsive user experiences.</li>
+                <li>Managed project lifecycles end-to-end: requirement discovery, system design, implementation, testing, and deployment.</li>
+              </ul>
+
+              <div class="timeline-tech-stack">
+                <span class="tech-chip">PHP</span>
+                <span class="tech-chip">CodeIgniter</span>
+                <span class="tech-chip">WordPress</span>
+                <span class="tech-chip">JavaScript</span>
+                <span class="tech-chip">jQuery</span>
+                <span class="tech-chip">MySQL</span>
+                <span class="tech-chip">HTML5 / CSS3</span>
+                <span class="tech-chip">Git</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         FEATURED PROJECTS SECTION
+         ========================================================================== -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Case Studies</span>
+          <h2 class="section-title">Featured <span class="text-gradient">Projects</span></h2>
+          <p class="section-subtitle">Real-world software platforms showcasing multi-tenant architecture, complex API ecosystems, and intelligent data systems.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: CEP / SyncingAbout -->
+          <div class="project-card">
+            <div class="project-badge-row">
+              <span class="project-type-tag">eCommerce SaaS</span>
+              <span class="tech-chip"><i class="fa fa-refresh"></i> Multi-Channel</span>
+            </div>
+            <h3 class="project-title">CEP / SyncingAbout</h3>
+            <h4 class="project-subtitle">Multi-Channel Inventory Management Platform</h4>
+            <p class="project-desc">
+              High-scale multi-channel inventory and order synchronization SaaS connecting merchants to global marketplaces with near real-time catalog replication and automated fulfillment tracking.
+            </p>
+
+            <ul class="project-highlights">
+              <li>Bi-directional synchronization with Shopify, WooCommerce, Shopee, Lazada, TikTok Shop, and Amazon.</li>
+              <li>Asynchronous queue workers handling millions of stock adjustments and webhook event dispatches.</li>
+              <li>Marketplace API rate-limiting throttling, exponential backoff retries, and comprehensive audit trails.</li>
+            </ul>
+
+            <div class="project-stack">
+              <span class="tech-chip">Laravel</span>
+              <span class="tech-chip">PHP</span>
+              <span class="tech-chip">Vue.js</span>
+              <span class="tech-chip">Inertia.js</span>
+              <span class="tech-chip">MySQL</span>
+              <span class="tech-chip">AWS</span>
+              <span class="tech-chip">Marketplace APIs</span>
+              <span class="tech-chip">Webhooks</span>
+            </div>
+          </div>
+
+          <!-- Project 2: Rekloq / WorkSnap -->
+          <div class="project-card">
+            <div class="project-badge-row">
+              <span class="project-type-tag">Workforce Platform</span>
+              <span class="tech-chip"><i class="fa fa-desktop"></i> Desktop + Cloud</span>
+            </div>
+            <h3 class="project-title">Rekloq / WorkSnap</h3>
+            <h4 class="project-subtitle">Workforce &amp; Activity Management Platform</h4>
+            <p class="project-desc">
+              Comprehensive employee productivity and workforce activity tracking platform combining lightweight desktop client agents with cloud-native administrative portals and analytics dashboards.
+            </p>
+
+            <ul class="project-highlights">
+              <li>Secure client-to-cloud API architecture for telemetry ingestion, time logs, and screenshot synchronization.</li>
+              <li>Modern administrative portal built with Filament for operational metrics, billing, and organizational hierarchy.</li>
+              <li>PostgreSQL schema optimized for timeseries activity logs, analytics rollups, and reporting queries.</li>
+            </ul>
+
+            <div class="project-stack">
+              <span class="tech-chip">Laravel</span>
+              <span class="tech-chip">PHP</span>
+              <span class="tech-chip">PostgreSQL</span>
+              <span class="tech-chip">Filament</span>
+              <span class="tech-chip">Desktop API</span>
+              <span class="tech-chip">Cloud Infrastructure</span>
+            </div>
+          </div>
+
+          <!-- Project 3: AI / RAG Applications -->
+          <div class="project-card">
+            <div class="project-badge-row">
+              <span class="project-type-tag">AI Engineering</span>
+              <span class="tech-chip"><i class="fa fa-magic"></i> RAG &amp; Agents</span>
+            </div>
+            <h3 class="project-title">Enterprise AI &amp; RAG Systems</h3>
+            <h4 class="project-subtitle">Intelligent Document Retrieval &amp; Workflow Agents</h4>
+            <p class="project-desc">
+              Next-generation business AI systems providing grounded document Q&amp;A, semantic retrieval, and multi-step autonomous agent workflows integrated seamlessly into production SaaS platforms.
+            </p>
+
+            <ul class="project-highlights">
+              <li>End-to-end RAG ingestion pipeline: document parsing, recursive chunking, embeddings, and vector similarity indexing.</li>
+              <li>Stateful agent orchestration using LangGraph with tool-calling capabilities and human approval checkpoints.</li>
+              <li>Grounded context injection avoiding hallucinations with strict citation-backed responses.</li>
+            </ul>
+
+            <div class="project-stack">
+              <span class="tech-chip">Python</span>
+              <span class="tech-chip">LangChain</span>
+              <span class="tech-chip">LangGraph</span>
+              <span class="tech-chip">RAG</span>
+              <span class="tech-chip">Pinecone</span>
+              <span class="tech-chip">Chroma</span>
+              <span class="tech-chip">LLM APIs</span>
+              <span class="tech-chip">FastAPI</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CERTIFICATIONS SECTION
+         ========================================================================== -->
+    <section id="certifications" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Verified Credentials</span>
+          <h2 class="section-title">Industry <span class="text-gradient">Certifications</span></h2>
+          <p class="section-subtitle">Validated expertise in cloud infrastructure, security, and enterprise architectures.</p>
+        </div>
+
+        <div class="cert-card-wrapper">
+          <div class="cert-showcase-card">
+            <img src="images/aws-certified-cloud-practitioner.png" alt="AWS Certified Cloud Practitioner Official Badge" class="cert-img-lg" />
+            <div class="cert-info">
+              <span class="cert-issuer">Amazon Web Services</span>
+              <h3>AWS Certified Cloud Practitioner</h3>
+              <p>
+                Demonstrates comprehensive knowledge of AWS Cloud architecture principles, core cloud services, security and compliance standards, scalable infrastructure design, and cloud economics.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CONTACT SECTION
+         ========================================================================== -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="contact-card">
+          <div class="contact-grid">
+            <div class="contact-left">
+              <span class="section-tag">Let's Connect</span>
+              <h3>Let's Build Something Intelligent</h3>
+              <p>
+                Interested in SaaS architecture, AI applications, automation or technical consulting? Let's connect and discuss how my 15+ years of software architecture and AI engineering can drive your next milestone.
+              </p>
+
+              <div class="contact-cta-buttons">
+                <a href="https://www.linkedin.com/in/manoj-agrawal-6009b830/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i> Connect on LinkedIn
+                </a>
+                <a href="mailto:manojujn@gmail.com" class="btn btn-secondary">
+                  <i class="fa fa-envelope" aria-hidden="true"></i> Send Email
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-info-list">
+              <div class="contact-item">
+                <div class="contact-icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                <div class="contact-details">
+                  <h5>Email Address</h5>
+                  <a href="mailto:manojujn@gmail.com">manojujn@gmail.com</a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                <div class="contact-details">
+                  <h5>Phone Number</h5>
+                  <a href="tel:+919970399685">+91-9970399685</a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                <div class="contact-details">
+                  <h5>Location</h5>
+                  <span>Mumbai, Maharashtra, India</span>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon"><i class="fa fa-globe" aria-hidden="true"></i></div>
+                <div class="contact-details">
+                  <h5>Portfolio URL</h5>
+                  <a href="https://manojujn05.github.io/tech-profile/" target="_blank" rel="noopener noreferrer">manojujn05.github.io/tech-profile/</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       SITE FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-text">
+        &copy; <span id="year">2026</span> Manoj Agrawal. Technical Architect &amp; AI Engineering Portfolio. All rights reserved.
+      </div>
+
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/manoj-agrawal-6009b830/" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="LinkedIn Profile">
+          <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </a>
+        <a href="https://twitter.com/ManojAg24865119" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Twitter Profile">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.youtube.com/channel/UC1bAm1eghkdo0YWVMeUgWpg" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="YouTube Channel">
+          <i class="fa fa-youtube" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.facebook.com/manojujn/" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Facebook Profile">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back To Top Button -->
+  <button id="back-to-top" class="back-to-top" aria-label="Back to Top" title="Back to Top">
+    <i class="fa fa-arrow-up" aria-hidden="true"></i>
+  </button>
+
+  <!-- Modern JavaScript -->
+  <script src="js/modern.js"></script>
+  <script>
+    // Ensure dynamic copyright year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
 </html>
